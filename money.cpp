@@ -182,5 +182,4 @@ istream& operator>>(istream& stream, money& mon)
 	mon.set_shilling(shilling);
 	mon.set_penny(penny);
 	return stream;
-
 }
